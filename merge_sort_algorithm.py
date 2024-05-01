@@ -1,4 +1,13 @@
 def merge_sort(array):
+    """
+    Sorts an array using the merge sort algorithm.
+
+    Args:
+        array (list): The list to be sorted.
+
+    Returns:
+        None: The array is sorted in place.
+    """
     if len(array) <= 1:
         return
     
